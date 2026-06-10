@@ -51,11 +51,23 @@ a {
     margin-top: 123px;
 }
 
+.m-info {
+    transform: translateY(80px);
+}
+
 .text {
     width: 200px;
     color: white;
 
 
+}
+
+.text-j {
+    transform: translateY(-100px);
+}
+
+.k-info {
+    transform: translateY(-70px);
 }
 
 .ff {
@@ -247,6 +259,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transform: translateY(160px);
 }
 
 .r-photo {
@@ -262,6 +275,7 @@ a {
 .text-b {
     font-size: 36px;
     color: black;
+    transform: translateY(100px);
 }
 
 .m-info {
@@ -269,7 +283,6 @@ a {
     height: 62px;
     font-size: 14px;
     color: black;
-
 }
 
 .m-photo {
@@ -469,8 +482,7 @@ a {
 }
 
 .form-box {
-    width: 1440px;
-    height: 490px;
+
     background-image: url(./images/fonus.png);
 
 
@@ -518,8 +530,7 @@ a {
 }
 
 .brown {
-    width: 1695px;
-    height: 380px;
+
     background-color: #000000B0;
 }
 
@@ -553,16 +564,13 @@ a {
     align-items: center;
     gap: 40px;
     list-style-position: inside;
-    transform: translateY(80px) translateX(50px);
 
 }
 
 .foter-box {
-    width: 1371px;
-    height: 21px;
+
     background-color: #4F4F4F;
     gap: 32px;
-    transform: translateY(80px) translateX(500px);
 
 
 }
@@ -576,4 +584,5 @@ a {
     align-items: center;
     gap: 40px;
     list-style-position: inside;
+    margin-left: 400px;
 }

@@ -138,10 +138,11 @@ a {
 }
 
 .hero {
-    background-image: url(./images/image\ 128.png);
+    background-image: url("./images/image\ 128.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 
 }
 
@@ -149,9 +150,11 @@ a {
 .big-box {
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin-left: 130px;
+    gap: 17px;
+    margin-left: 160px;
+    margin-top: 30px;
     border-radius: 53px;
+    /* position: absolute */
 }
 
 
@@ -164,21 +167,19 @@ a {
 }
 
 .parent-c {
-    width: 448px;
+    width: 848px;
     height: 350px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 103px;
-    margin-top: 153px;
+    margin-left: 230px;
+    flex-direction: column;
+
 }
 
 .question-box {
     font-size: 40px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: -450px;
+
 }
 
 .boxing {
@@ -484,8 +485,10 @@ a {
 .form-box {
 
     background-image: url(./images/fonus.png);
-
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 142px
 }
 
 .email-box {
@@ -535,6 +538,7 @@ a {
 }
 
 .logon {
+    gap: 20px;
     width: 1371px;
     height: 249px;
     background-color: #4F4F4F;
@@ -567,7 +571,7 @@ a {
 
 }
 
-.foter-box {
+footer {
 
     background-color: #4F4F4F;
     gap: 32px;

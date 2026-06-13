@@ -537,6 +537,10 @@ a {
     background-color: #000000B0;
 }
 
+header {
+    padding-top: 40px;
+}
+
 .logon {
     gap: 20px;
     width: 1371px;
